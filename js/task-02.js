@@ -16,3 +16,4 @@ const listItems = ingredients.map(ingredient => {
   return listItem;
 });
 listIngredients.append(...listItems);
+console.log(listIngredients);
